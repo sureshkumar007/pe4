@@ -15,7 +15,7 @@ public class SortWords
         if (inputString.length() == 0) {
             return Collections.singletonList("Text is empty");
         }
-
+//sorting the string based on the alphabate
         if (inputString.matches("[0-9]*")) {
             return Collections.singletonList("Text contains digits");
         }

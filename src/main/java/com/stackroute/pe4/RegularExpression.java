@@ -9,6 +9,11 @@ public class RegularExpression
     {
 
         //Pattern.matches("Harry",regularCheck(string));
+
+        /*
+        here we are checking the whether string return true or false
+        SO we are writing function with boolean
+        */
         boolean b3 = string.matches(".*Har.y*.");
         return str+b3;
     }
